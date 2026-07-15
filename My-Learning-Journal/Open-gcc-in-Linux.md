@@ -244,37 +244,6 @@ Always read the **first** error message carefully, as later errors are often cau
 
 ---
 
-# What's Next?
-
-After understanding this workflow, continue learning in the following order:
-
-```text
-Linux
-    │
-    ▼
-C++ Basics
-    │
-    ▼
-STL
-    │
-    ▼
-Modern C++
-    │
-    ▼
-CMake
-    │
-    ▼
-Git
-    │
-    ▼
-ROS2
-    │
-    ▼
-Robotics Algorithms
-```
-
----
-
 # Summary
 
 Developing C++ applications on Ubuntu only requires three essential tools:
