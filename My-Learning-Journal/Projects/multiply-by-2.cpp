@@ -6,6 +6,6 @@ int main()
     std::cout<<"Enter an integar:";
     std::cin>>num;
     int doublenum{num*2};
-    std::cout<<"Double taht number is:"<<doublenum<<'\n';
+    std::cout<<"Double that number is:"<<doublenum<<'\n';
     return 0;
 }
