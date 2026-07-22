@@ -15,7 +15,7 @@ void printDouble(int value)
 
 int main()
 {
-    int num{getValueFromUser()};
-    printDouble(num);
+    int num{getValueFromUser()};    
+    printDouble(num);             // Or just use prinDouble(getValueFromUser());
     return 0;
 }
