@@ -2,9 +2,10 @@
 
 int main()
 {
-    int x{};
+    int num{};
     std::cout<<"Enter an integar:";
-    std::cin>>x;
-    std::cout<<"Double taht number is:"<<x*2<<'\n';
+    std::cin>>num;
+    int doublenum{num*2};
+    std::cout<<"Double taht number is:"<<doublenum<<'\n';
     return 0;
 }
