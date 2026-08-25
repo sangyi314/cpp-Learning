@@ -8,5 +8,7 @@ int main ()
     std::cout << *ptr << '\n';
     ptr = &y;
     std::cout << *ptr << '\n';
+    *ptr = 9;
+    std::cout << y <<'\n';
     return 0;
 }
