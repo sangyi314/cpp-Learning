@@ -1,12 +1,15 @@
-enum Color
+namespace Color
 {
-    red,
-    green,
-    blue,
-};
+    enum Color
+    {
+        red,
+        green,
+        blue,
+    };
+}   
 
 int main()
 {
-    Color apple {red};
+    Color::Color apple {Color::red};
     return 0;
 }
