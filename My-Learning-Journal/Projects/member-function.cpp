@@ -6,7 +6,7 @@ struct Date
     int month{};
     int year{};
 
-    void print ()
+    void print () const
     {
         std::cout << day << '/' << month << '/' << year << '\n';
     }
