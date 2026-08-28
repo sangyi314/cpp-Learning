@@ -5,7 +5,7 @@ void printStack(const std::vector<int>& v)
 {
     if (v.empty())
         std::cout << "Empty";
-    for (int i : v)
+    for (auto i : v)
         std::cout << i << ' ';
     std::cout << "\tLength: " << v.size() << "\tCapacity: " << v.capacity() << '\n';
 }
