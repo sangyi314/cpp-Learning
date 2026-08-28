@@ -5,7 +5,7 @@ void printStack(const std::vector<int>& v)
 {
     if (v.empty())
         std::cout << "Empty";
-    for (auto i : v)
+    for (int i : v)
         std::cout << i << ' ';
     std::cout << "\tLength: " << v.size() << "\tCapacity: " << v.capacity() << '\n';
 }
@@ -15,6 +15,8 @@ int main()
     std::vector<int> stack {};
 
     printStack(stack);
+
+    //stack.reserve(6);
 
     stack.push_back(1);
     printStack(stack);
