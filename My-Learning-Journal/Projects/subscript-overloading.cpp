@@ -10,7 +10,7 @@ public :
     {
         return m_arr[index];
     }
-    const int& operator[](std::size_t index) const
+    const int operator[](std::size_t index) const
     {
         return m_arr[index];
     }
