@@ -17,5 +17,5 @@ int main()
 
     std::cout << a << '\n' << b << '\n' << c << '\n' << d << '\n' << e << '\n';
 
-    return 0;
+    return 0; 
 }
